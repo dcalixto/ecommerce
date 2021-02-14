@@ -1,2 +1,7 @@
+[dev]
+   command = "yarn dev"
 [build]
-  functions = "functions"
+  command = "yarn generate"
+  publish = "dist"
+  functions = 'functions'  # directs netlify to where your functions directory is located
+ 
